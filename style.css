@@ -33,6 +33,28 @@ button:hover{
     background-color: #09AE9D;
     height: 55px;
 }
+ul{
+    list-style-type: none ;
+    padding: 0;
+}
+li{
+    background-color: #104e47af ;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bolder;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+span{
+    cursor: pointer;
+}
 input{
     box-shadow: 2px 2px 20px black;
     background-color: #55c1b666;
